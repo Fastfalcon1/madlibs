@@ -31,11 +31,12 @@ function getStory(formData) {
 }
 
 function generateStory1(formData){
-  return `Twas a dark and stormy ${formData.noun1}. The ${formData.adjective1} pumpkins started to ${formData.verb1}!`
+  return `There once was a ${formData.adjective1} man who was lonely. he was a prince in search of a ${formData.noun1}. It was the only thing he was interested in, as he had everything else in the world. 
+  As he ${formData.verb1} the fire, he saw something that caught his eye. It was a ${formData.adjective2} ${formData.noun2}`
 }
 
 function generateStory2(formData){
-  return `Twas a dark and stormy ${formData.noun1}. The ${formData.adjective1} pumpkins started to ${formData.verb1}!`
+  return `Twas a dark and stormy ${formData.noun1}. The ${formData.adjective} pumpkins started to ${formData.verb1}!`
 }
 
 function generateStory3(formData){

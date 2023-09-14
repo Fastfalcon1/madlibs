@@ -3,14 +3,20 @@ extends layout
 block content
   h1 enter your words
   form(method="POST" action="/story" id="words")
+    label(for="adjective1") adjective:
+      input(type="text" name="adjective1" id="adjective1")
+      br
     label(for="noun1") Noun:
     input(type="text" name="noun1" id="noun1")
     br
-    label(for="verb1") Noun:
+    label(for="verb1") verb:
     input(type="text" name="verb1" id="verb1")
     br
-    label(for="adjective1") Noun:
-    input(type="text" name="adjective1" id="adjective1")
+    label(for="adjective2") adjective:
+    input(type="text" name="adjective2" id="adjective2")
+    br
+    label(for="noun2") Noun:
+    input(type="text" name="noun2" id="noun2")
     label(for="storyChoice") Choose One
     Select(form="words" name="storyChoice" id="storyChoice")
       option(value = "1") Story 1
